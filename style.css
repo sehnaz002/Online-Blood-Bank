@@ -1,0 +1,61 @@
+body{
+	background-image:url(p1.jpg);
+	background-size: cover;
+}
+header,footer{
+	background-image: url(bc.jpg);
+	/*background-color: ;*/
+	background-size: cover;
+}
+h1{
+	color: white;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+button{
+	border: none;
+  	color: white;
+  	background-color: red;
+  	padding: 14px 35px;
+  	font-size: 16px;
+  	cursor: pointer;
+	box-shadow: 0 5px #999;
+	border: none;
+  	border-top-left-radius: 50px;
+  	border-top-right-radius: 50px;
+  	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+button:hover{
+	background-color: black;
+}
+article {
+    margin-left: 210px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+	color:black;
+	font-size:18px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.fild{
+    width: 50%;
+    border: 1px solid white;
+	background-image:url(p1.jpg);
+	background-size: cover;
+	border-top-left-radius: 50px;
+  	border-top-right-radius: 50px;
+  	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.row{
+	font-size:20px;
+	color:;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.column{
+	float : left;
+	width: 33%;
+	color:;
+	font-size:20px;
+}
